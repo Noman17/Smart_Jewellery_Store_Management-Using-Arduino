@@ -228,7 +228,7 @@ void counterbeep()
   lcd1.setCursor(2,0);
   lcd1.println("GET IN WITHIN:::");
 
-  for(int i = 3; i > 0; i--)
+  for(int i = 30; i > 0; i--)
   {
     lcd1.setCursor(8,1);
     lcd1.print(i);
